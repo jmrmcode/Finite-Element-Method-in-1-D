@@ -5,8 +5,11 @@ The provided code approximates continuous functions in a one-dimensional domain 
 
 ![Local functions](https://github.com/jmrmcode/Finite-Element-Method-in-1-D/blob/master/localFunctions.png)
 
-which is derived from the global function at the node j:
+which is derived from the global functions at the node j:
 
-![Global functions](https://github.com/jmrmcode/Finite-Element-Method-in-1-D/blob/master/localFunctions.png)
+![Global functions](https://github.com/jmrmcode/Finite-Element-Method-in-1-D/blob/master/globalFunctions.png)
 
-The function to be approximated is declire by the user on line 4
+See [WIKIVERSITY](https://en.wikiversity.org/wiki/Introduction_to_finite_elements/Finite_element_basis_functions) for more details.
+
+The function to be approximated is declared by the user on line #4 of the code (by default the function is sin(x) + cos(x)).
+The code is written using [Julia programming language](https://julialang.org/).
